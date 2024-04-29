@@ -43,7 +43,7 @@ The two categorical variables I chose to look at are age group and sex. The vict
 The plots below show the age group distributions for each sex.
 
 ```{r male-plot, echo = F, fig.width=11}
-esquisse::esquisser(col_accidents_clean)
+# esquisse::esquisser(col_accidents_clean)
 
 # Plot for male victims.
 male <-
