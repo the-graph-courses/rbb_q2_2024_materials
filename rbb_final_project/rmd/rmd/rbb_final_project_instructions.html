@@ -12,9 +12,9 @@
 
 <meta name="author" content="GRAPH Courses Team" />
 
-<meta name="date" content="2024-03-19" />
+<meta name="date" content="2024-06-12" />
 
-<title>RBB Capstone Project Instructions</title>
+<title>RBB Q2 | Final (Capstone) Project Instructions</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -49,9 +49,10 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 <header>
 <div class="inner">
-<h1 class="title toc-ignore">RBB Capstone Project Instructions</h1>
+<h1 class="title toc-ignore">RBB Q2 | Final (Capstone) Project
+Instructions</h1>
 <h3 class="author">GRAPH Courses Team</h3>
-<h3 class="date">2024-03-19</h3>
+<h3 class="date">2024-06-12</h3>
 </div>
 </header>
 
@@ -64,25 +65,25 @@ document.addEventListener('DOMContentLoaded', function(e) {
 Requirements</strong></a>
 <ul>
 <li><a href="#minimum-requirements" id="toc-minimum-requirements"><strong>Minimum
-requirements</strong></a></li>
+Requirements</strong></a></li>
 <li><a href="#full-grading-rubric" id="toc-full-grading-rubric"><strong>Full Grading Rubric</strong></a>
 <ul>
 <li><a href="#data-wrangling-35" id="toc-data-wrangling-35"><strong>Data
-wrangling (35%)</strong></a></li>
-<li><a href="#data-visualization-35" id="toc-data-visualization-35"><strong>Data visualization
+Wrangling (35%)</strong></a></li>
+<li><a href="#data-visualization-35" id="toc-data-visualization-35"><strong>Data Visualization
 (35%)</strong></a></li>
 <li><a href="#use-of-rmarkdown-20" id="toc-use-of-rmarkdown-20"><strong>Use of Rmarkdown
 (20%)</strong></a></li>
-<li><a href="#good-programming-practices-10" id="toc-good-programming-practices-10"><strong>Good programming
-practices (10%)</strong></a></li>
+<li><a href="#good-programming-practices-10" id="toc-good-programming-practices-10"><strong>Good Programming
+Practices (10%)</strong></a></li>
 </ul></li>
 </ul></li>
-<li><a href="#final-step-export-and-submit-your-work" id="toc-final-step-export-and-submit-your-work"><strong>Final step:
-Export and submit your work</strong></a></li>
+<li><a href="#final-step-export-and-submit-your-work" id="toc-final-step-export-and-submit-your-work"><strong>Final Step:
+Export and Submit your Work</strong></a></li>
 <li><a href="#appendix-1-sample-reports" id="toc-appendix-1-sample-reports"><strong>Appendix 1: Sample
-reports</strong></a></li>
+Reports</strong></a></li>
 <li><a href="#appendix-2-information-about-the-dhs" id="toc-appendix-2-information-about-the-dhs"><strong>Appendix 2:
-Information about the DHS</strong></a></li>
+Information About the DHS</strong></a></li>
 <li><a href="#appendix-3-dos-and-donts" id="toc-appendix-3-dos-and-donts"><strong>Appendix 3: Dos and
 Don’ts</strong></a></li>
 <li><a href="#appendix-4-other-faqs" id="toc-appendix-4-other-faqs"><strong>Appendix 4: Other
@@ -119,14 +120,14 @@ showcase your data analysis expertise with the Captsone Project!</p>
 country and a topic of your choosing. Example reports from RBB alumni
 are provided in Appendix 1.</p>
 <div id="minimum-requirements" class="section level2">
-<h2><strong>Minimum requirements</strong></h2>
+<h2><strong>Minimum Requirements</strong></h2>
 <p>The final report should:</p>
 <ul>
 <li><p>Analyze data from one of the country-level DHS women’s individual
 recode survey datasets we have compiled for you <a href="https://drive.google.com/drive/u/0/folders/1J0gw4qpfbB8bYFbXx8QcsQEWgJSVwp_P">here</a>,
 or an approved alternative (see Appendix 4).</p></li>
 <li><p>Contain a minimum of 600 words of descriptive text.</p></li>
-<li><p>Include at least three meaningful graphs and one data
+<li><p>Include at least four meaningful graphs and one data
 table.</p></li>
 <li><p>Look professional and presentable to a public audience.</p></li>
 </ul>
@@ -136,17 +137,18 @@ be evaluated and the author will be asked to resubmit.</p>
 <div id="full-grading-rubric" class="section level2">
 <h2><strong>Full Grading Rubric</strong></h2>
 <p>We will be using the following rubric to evaluate your work. As you
-write your report, you should closely refer to this list and make sure
-to fulfill each requirement!</p>
+write your report, <strong>you should closely refer to this
+list</strong> and make sure to <strong>fulfill each
+requirement</strong>!</p>
 <div id="data-wrangling-35" class="section level3">
-<h3><strong>Data wrangling (35%)</strong></h3>
+<h3><strong>Data Wrangling (35%)</strong></h3>
 <p>Demonstrate that you have used appropriate data wrangling techniques
 to prepare the data for analysis.</p>
 <p><strong>Importing and cleaning DHS data</strong>: Use the {haven}
 package to import and covert variables from the DHS dataset. Rename
 variables appropriately. This has been covered extensively in the
 Workshop 10 exercise and Week 11 prework guide.</p>
-<p><strong>Competency with <code>{dplyr}</code></strong>: Use at least
+<p><strong>Competency with <code>{dplyr}</code></strong>: Use AT LEAST
 four of these eight functions covered in the data wrangling chapter:
 <code>select()</code>, <code>filter()</code>, <code>mutate()</code>,
 <code>case_when()</code>, <code>group_by()</code>,
@@ -154,10 +156,10 @@ four of these eight functions covered in the data wrangling chapter:
 <code>pivot_longer()</code>.</p>
 </div>
 <div id="data-visualization-35" class="section level3">
-<h3><strong>Data visualization (35%)</strong></h3>
-<p><strong>Competency with <code>{ggplot2}</code></strong>: Include at
-least three plots and use at least 2 different <code>geom</code>
-functions. Demonstrate that you can use at least two of the following
+<h3><strong>Data Visualization (35%)</strong></h3>
+<p><strong>Competency with <code>{ggplot2}</code></strong>: Include AT
+LEAST three plots and use AT LEAST 2 different <code>geom</code>
+functions. Demonstrate that you can use AT LEAST two of the following
 <strong><code>{ggplot2}</code></strong> features: <code>scale</code>
 functions, <code>position</code> adjustments, <code>coord</code>
 functions, or <code>facet</code> functions.</p>
@@ -166,7 +168,7 @@ informative, and aesthetically pleasing. Add appropriate titles and
 clean up any messy text labels on your figures. We recommend you use a
 consistent <code>theme</code> and color scheme to maintain a
 professional look.</p>
-<p><strong>Tables</strong>: Include at least one <a href="https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html#74_Display_tables">display
+<p><strong>Tables</strong>: Include AT LEAST one <a href="https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html#74_Display_tables">display
 table</a> using one of the following packages: <code>{flextable}</code>,
 <code>{gt}</code>, or <code>{reactable}</code>.</p>
 </div>
@@ -179,7 +181,7 @@ code</a>. Use appropriate <a href="https://the-graph-courses.github.io/r_foundat
 options</a> to show or hide code outputs from the final document.</p>
 </div>
 <div id="good-programming-practices-10" class="section level3">
-<h3><strong>Good programming practices (10%)</strong></h3>
+<h3><strong>Good Programming Practices (10%)</strong></h3>
 <p><strong>Syntax and code formatting</strong>: Use clean,
 well-organized code that is easy to read and understand. This includes
 using appropriate indentation, commenting your code, neat piping, and
@@ -192,7 +194,7 @@ Projects lesson</a> to refresh your memory.</p>
 </div>
 </div>
 <div id="final-step-export-and-submit-your-work" class="section level1">
-<h1><strong>Final step: Export and submit your work</strong></h1>
+<h1><strong>Final Step: Export and Submit your Work</strong></h1>
 <p>Once your work is done, to submit it you should knit your Rmd to
 produce your publication-ready final report! This can be as an HTML/PDF
 or DOCX format.</p>
@@ -200,7 +202,7 @@ or DOCX format.</p>
 to the assignment page.</p>
 </div>
 <div id="appendix-1-sample-reports" class="section level1">
-<h1><strong>Appendix 1: Sample reports</strong></h1>
+<h1><strong>Appendix 1: Sample Reports</strong></h1>
 <p>To get a sense of what we’re looking for, review these exemplary
 submissions from past students:</p>
 <ul>
@@ -219,7 +221,7 @@ Mbachu</a></li>
 analysis on a public health topic.</p>
 </div>
 <div id="appendix-2-information-about-the-dhs" class="section level1">
-<h1><strong>Appendix 2: Information about the DHS</strong></h1>
+<h1><strong>Appendix 2: Information About the DHS</strong></h1>
 <p>The Demographic and Health Surveys (DHS) are a series of standardized
 surveys conducted periodically in developing countries that collect data
 on various aspects of population, health, and nutrition.</p>
@@ -232,17 +234,20 @@ surveys, visit this <a href="https://dhsprogram.com/publications/index.cfm" targ
 <div id="appendix-3-dos-and-donts" class="section level1">
 <h1><strong>Appendix 3: Dos and Don’ts</strong></h1>
 <ul>
-<li><p>Don’t leave spelling and grammar mistakes in your final report.
-ChatGPT is a fast and easy tool for proofreading.</p></li>
-<li><p>Don’t include code chunks in the final document (your knitted
-report)</p></li>
-<li><p>Do use inline code to reference statistics in the main text of
-your report! For a refresher on how to do this, review the <a href="https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html">R
+<li><p><span style="color: red;"><strong><em>Don’t</em></strong></span>
+leave spelling and grammar mistakes in your final report. ChatGPT is a
+fast and easy tool for proofreading.</p></li>
+<li><p><span style="color: red;"><strong><em>Don’t</em></strong></span>
+include code chunks in the final document (your knitted
+report)!</p></li>
+<li><p><span style="color: green;"><strong><em>Do</em></strong></span>
+use inline code to reference statistics in the main text of your report!
+For a refresher on how to do this, review the <a href="https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html">R
 Markdown lesson</a> or Workshop 3: Challenge 2.</p></li>
-<li><p>Do structure your report with section headings that have a
-logical flow (e.g., Introduction, Background, Aims, Findins,
-Conclusions, References). You can also use non-traditional section
-titles like in <a href="https://dhsprogram.com/pubs/pdf/AB20/AB20.pdf">this</a> DHS
+<li><p><span style="color: green;"><strong><em>Do</em></strong></span>
+structure your report with section headings that have a logical flow
+(e.g., Introduction, Background, Aims, Findins, Conclusions,
+References). You can also use non-traditional section titles like in <a href="https://dhsprogram.com/pubs/pdf/AB20/AB20.pdf">this</a> DHS
 analysis brief.</p></li>
 </ul>
 </div>
@@ -260,7 +265,7 @@ Spanish.</p>
 <p><strong>Can I use data from a different survey than the Demographic
 and Health Survey (DHS)?</strong></p>
 <p>Yes, but you will first need to obtain permission from one of our
-instructors.</p>
+instructors!</p>
 <p><strong>Can I create a dashboard using flexdashboard instead of a
 flat HTML/PDF document?</strong></p>
 <p>Yes. Any Rmarkdown-based format is acceptable!</p>

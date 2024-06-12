@@ -1,11 +1,11 @@
 ---
-title: "RBB Capstone Project Instructions"
+title: "RBB Q2 | Final (Capstone) Project Instructions"
 output:
   prettydoc::html_pretty:
     theme: architect
     toc: true
 author: "GRAPH Courses Team"
-date: "2024-03-19"
+date: "2024-06-12"
 editor_options: 
   chunk_output_type: inline
 ---
@@ -34,7 +34,7 @@ As we come to the end of your 3-month learning journey, it's time to showcase yo
 
 For the capstone project, you will use Demographic and Health Survey (DHS) data to create an Rmarkdown-based report, focusing on a specific country and a topic of your choosing. Example reports from RBB alumni are provided in Appendix 1.
 
-## **Minimum requirements**
+## **Minimum Requirements**
 
 The final report should:
 
@@ -42,7 +42,7 @@ The final report should:
 
 -   Contain a minimum of 600 words of descriptive text.
 
--   Include at least three meaningful graphs and one data table.
+-   Include at least four meaningful graphs and one data table.
 
 -   Look professional and presentable to a public audience.
 
@@ -50,41 +50,41 @@ Submissions that do not meet these minimum requirements will be not be evaluated
 
 ## **Full Grading Rubric**
 
-We will be using the following rubric to evaluate your work. As you write your report, you should closely refer to this list and make sure to fulfill each requirement!
+We will be using the following rubric to evaluate your work. As you write your report, **you should closely refer to this list** and make sure to **fulfill each requirement**!
 
-### **Data wrangling (35%)**
+### **Data Wrangling (35%)**
 
 Demonstrate that you have used appropriate data wrangling techniques to prepare the data for analysis.
 
 **Importing and cleaning DHS data**: Use the {haven} package to import and covert variables from the DHS dataset. Rename variables appropriately. This has been covered extensively in the Workshop 10 exercise and Week 11 prework guide.
 
-**Competency with `{dplyr}`**: Use at least four of these eight functions covered in the data wrangling chapter: `select()`, `filter()`, `mutate()`, `case_when()`, `group_by()`, `summarize()`, `pivot_wider()` and `pivot_longer()`.
+**Competency with `{dplyr}`**: Use AT LEAST four of these eight functions covered in the data wrangling chapter: `select()`, `filter()`, `mutate()`, `case_when()`, `group_by()`, `summarize()`, `pivot_wider()` and `pivot_longer()`.
 
-### **Data visualization (35%)**
+### **Data Visualization (35%)**
 
-**Competency with `{ggplot2}`**: Include at least three plots and use at least 2 different `geom` functions. Demonstrate that you can use at least two of the following **`{ggplot2}`** features: `scale` functions, `position` adjustments, `coord` functions, or `facet` functions.
+**Competency with `{ggplot2}`**: Include AT LEAST three plots and use AT LEAST 2 different `geom` functions. Demonstrate that you can use AT LEAST two of the following **`{ggplot2}`** features: `scale` functions, `position` adjustments, `coord` functions, or `facet` functions.
 
 **Quality and professionalism**: Figures are clear, informative, and aesthetically pleasing. Add appropriate titles and clean up any messy text labels on your figures. We recommend you use a consistent `theme` and color scheme to maintain a professional look.
 
-**Tables**: Include at least one [display table](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html#74_Display_tables) using one of the following packages: `{flextable}`, `{gt}`, or `{reactable}`.
+**Tables**: Include AT LEAST one [display table](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html#74_Display_tables) using one of the following packages: `{flextable}`, `{gt}`, or `{reactable}`.
 
 ### **Use of Rmarkdown (20%)**
 
 Demonstrate that you can use R Markdown to create a professional document. This entails using appropriate formatting of header levels and RMarkdown features such as [inline code](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html#73_Inline_Code). Use appropriate [chunk options](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html#72_R_code_chunk_options) to show or hide code outputs from the final document.
 
-### **Good programming practices (10%)**
+### **Good Programming Practices (10%)**
 
 **Syntax and code formatting**: Use clean, well-organized code that is easy to read and understand. This includes using appropriate indentation, commenting your code, neat piping, and using clear, descriptive variable names.
 
 **Project folder structure**: Give your project an appropriate name, and organize your files in sensible subfolders (e.g., data, rmd, images, etc.). Review the [RStudio Projects lesson](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls05_projects.html) to refresh your memory.
 
-# **Final step: Export and submit your work**
+# **Final Step: Export and Submit your Work**
 
 Once your work is done, to submit it you should knit your Rmd to produce your publication-ready final report! This can be as an HTML/PDF or DOCX format.
 
 To submit, you should upload a zip your project folder and upload it to the assignment page.
 
-# **Appendix 1: Sample reports**
+# **Appendix 1: Sample Reports**
 
 To get a sense of what we're looking for, review these exemplary submissions from past students:
 
@@ -96,7 +96,7 @@ To get a sense of what we're looking for, review these exemplary submissions fro
 
 Notice how these reports are well-structured, and present insightful analysis on a public health topic.
 
-# **Appendix 2: Information about the DHS**
+# **Appendix 2: Information About the DHS**
 
 The Demographic and Health Surveys (DHS) are a series of standardized surveys conducted periodically in developing countries that collect data on various aspects of population, health, and nutrition.
 
@@ -106,13 +106,13 @@ Finally, to see the kind of reports that are created from the DHS surveys, visit
 
 # **Appendix 3: Dos and Don'ts**
 
--   Don't leave spelling and grammar mistakes in your final report. ChatGPT is a fast and easy tool for proofreading.
+-   [***Don't***]{style="color: red;"} leave spelling and grammar mistakes in your final report. ChatGPT is a fast and easy tool for proofreading.
 
--   Don't include code chunks in the final document (your knitted report)
+-   [***Don't***]{style="color: red;"} include code chunks in the final document (your knitted report)!
 
--   Do use inline code to reference statistics in the main text of your report! For a refresher on how to do this, review the [R Markdown lesson](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html) or Workshop 3: Challenge 2.
+-   [***Do***]{style="color: green;"} use inline code to reference statistics in the main text of your report! For a refresher on how to do this, review the [R Markdown lesson](https://the-graph-courses.github.io/r_foundations_wp/lessons/ls06_rmarkdown.html) or Workshop 3: Challenge 2.
 
--   Do structure your report with section headings that have a logical flow (e.g., Introduction, Background, Aims, Findins, Conclusions, References). You can also use non-traditional section titles like in [this](https://dhsprogram.com/pubs/pdf/AB20/AB20.pdf) DHS analysis brief.
+-   [***Do***]{style="color: green;"} structure your report with section headings that have a logical flow (e.g., Introduction, Background, Aims, Findins, Conclusions, References). You can also use non-traditional section titles like in [this](https://dhsprogram.com/pubs/pdf/AB20/AB20.pdf) DHS analysis brief.
 
 # **Appendix 4: Other FAQs**
 
@@ -126,7 +126,7 @@ You are allowed to write the report in English, French or Spanish.
 
 **Can I use data from a different survey than the Demographic and Health Survey (DHS)?**
 
-Yes, but you will first need to obtain permission from one of our instructors.
+Yes, but you will first need to obtain permission from one of our instructors!
 
 **Can I create a dashboard using flexdashboard instead of a flat HTML/PDF document?**
 
