@@ -80,9 +80,9 @@ Demonstrate that you can use R Markdown to create a professional document. This 
 
 # **Final Step: Export and Submit your Work**
 
-Once your work is done, to submit it you should knit your Rmd to produce your publication-ready final report! This can be as an HTML/PDF or DOCX format.
+Once your work is done, you should knit your Rmd to produce your publication-ready final report! This can be as an HTML/PDF or DOCX format.
 
-To submit, you should upload a zip your project folder and upload it to the assignment page.
+To submit, you should upload a .ZIP FILE of your project folder (containing your Rmd and knitted report) and upload it to the assignment page.
 
 # **Appendix 1: Sample Reports**
 
